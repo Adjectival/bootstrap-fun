@@ -2,9 +2,21 @@
   box-sizing: border-box;
 }
 
+/*palette
+btn: #da7e25
+btn shadow: #834c16
+navbar brown: #29180b
+main topleft: #764318
+main midtone: #150e05
+
+*/
+/*nav bar*/
 span span {
   font-family: fantasy;
   font-weight: bolder;
+}
+nav {
+  background-color: #29180b;
 }
 
 #brand_small_text {
@@ -15,16 +27,17 @@ span span {
   color: blue;
   font-size: 18px
 }
-#navwrap {
-  position: relative;
-}
-#righted_nav {
-  position: absolute;
-  float: right;
-}
+
 /*main layout*/
+body {
+  background: url("/img/bg.jpg");
+}
+
+div {
+  border: 1px dashed red;
+}
 .container {
-  width: 100%;
+  max-width: 60em;
 }
 div div div {
   background-color: #daf;
