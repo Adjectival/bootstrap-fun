@@ -20,5 +20,13 @@ span span {
 }
 #righted_nav {
   position: absolute;
-  float: left;
+  float: right;
+}
+/*main layout*/
+.container {
+  width: 100%;
+}
+div div div {
+  background-color: #daf;
+  margin-left: 1vw;
 }
