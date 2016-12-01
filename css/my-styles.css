@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+span span {
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+#brand_small_text {
+  color: red;
+  font-size: 12px
+}
+#brand_large_text {
+  color: blue;
+  font-size: 18px
+}
+#navwrap {
+  position: relative;
+}
+#righted_nav {
+  position: absolute;
+  float: left;
+}
